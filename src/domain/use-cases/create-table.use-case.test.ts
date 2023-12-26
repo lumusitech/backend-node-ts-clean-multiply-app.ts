@@ -1,4 +1,3 @@
-import { notDeepEqual } from 'assert'
 import { CreateTable } from './create-table.use-case'
 
 describe('CreateTableUseCase', () => {
