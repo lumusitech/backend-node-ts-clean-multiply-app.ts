@@ -9,7 +9,7 @@
     "build": "rimraf ./dist && tsc",
     "start": "pnpm build && node dist/app.js",
     "test": "jest",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watch --detectOpenHandles",
     "test:coverage": "jest --coverage"
   },
   "keywords": [
