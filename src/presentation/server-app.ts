@@ -11,8 +11,7 @@ interface RunOptions {
 
 export class ServerApp {
   static async run({ base, limit, showTable, fileName, fileDestination }: RunOptions) {
-    console.log('Running server app...')
-    // console.log({ options })
+    console.log('🚀 Running server app...')
 
     const table = new CreateTable().execute({ base, limit })
 

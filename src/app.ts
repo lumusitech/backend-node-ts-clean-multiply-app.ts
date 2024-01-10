@@ -1,9 +1,6 @@
 import { yarg } from './config/plugins/args.plugin'
-
-// console.log(yarg.b)
 import { ServerApp } from './presentation/server-app'
 
-// IIFE to run the app
 ;(async () => {
   await main()
 })()
