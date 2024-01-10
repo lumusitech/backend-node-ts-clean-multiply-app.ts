@@ -130,4 +130,6 @@ dist
 .pnp.*
 
 # ignore app default export folder
-outputs
+outputs/
+custom_outputs/
+test_destination/
